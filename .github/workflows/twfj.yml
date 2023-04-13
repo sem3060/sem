@@ -1,0 +1,1224 @@
+name: Get YouTube Live m3u8
+on:
+  schedule:
+    - cron: '0 0/3 * * *'
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+        # 01宜蘭-福隆1	
+    - name: Get 01.m3u8
+      run: |
+        touch ./01.m3u8
+        sudo cat >./01.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NeKjZx8aN-w)
+        EOL
+        # 02宜蘭-福隆2
+    - name: Get 02.m3u8
+      run: |
+        touch ./02.m3u8
+        sudo cat >./02.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=RjPaF43hst0)
+        EOL
+        # 03宜蘭-福隆3
+    - name: Get 03.m3u8
+      run: |
+        touch ./03.m3u8
+        sudo cat >./03.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=toyVKHAFtac)
+        EOL
+        # 04宜蘭-外澳沙灘
+    - name: Get 04.m3u8
+      run: |
+        touch ./04.m3u8
+        sudo cat >./04.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=3XZYoXzp9H0)
+        EOL
+        # 05蘇澳-安南1
+    - name: Get 05.m3u8
+      run: |
+        touch ./05.m3u8
+        sudo cat >./05.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_QrMNgCVcDs)
+        EOL
+        # 06蘇澳-安南2
+    - name: Get 06.m3u8
+      run: |
+        touch ./06.m3u8
+        sudo cat >./06.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=CE8A4v7dYBI)
+        EOL
+        # 07礁溪-寒沐酒店
+    - name: Get 07.m3u8
+      run: |
+        touch ./07.m3u8
+        sudo cat >./07.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=cPh2vzrtG_w)
+        EOL
+        # 08新北-龍洞1
+    - name: Get 08.m3u8
+      run: |
+        touch ./08.m3u8
+        sudo cat >./08.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=42SdLqhVdYo)
+        EOL
+        # 09新北-龍洞2
+    - name: Get 09.m3u8
+      run: |
+        touch ./09.m3u8
+        sudo cat >./09.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=d6pb0Dt-SLs)
+        EOL
+        # 10新北-碧砂漁港1
+    - name: Get 10.m3u8
+      run: |
+        touch ./10.m3u8
+        sudo cat >./10.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-ILuLg8EcFo)
+        EOL
+        # 11新北-碧砂漁港2
+    - name: Get 11.m3u8
+      run: |
+        touch ./11.m3u8
+        sudo cat >./11.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=v4TbKMYozbc)
+        EOL
+        # 12基隆-和平島公園
+    - name: Get 12.m3u8
+      run: |
+        touch ./12.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=cuf7GTTE6j4)
+        EOL
+        # 13基隆-和平島1
+    - name: Get 13.m3u8
+      run: |
+        touch ./13.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=yrKSMHWVeK4)
+        EOL 
+        # 14基隆-和平島2
+    - name: Get 14.m3u8
+      run: |
+        touch ./14.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VOV0iYMzsig)
+        EOL
+        # 15新北-野柳1
+    - name: Get 15.m3u8
+      run: |
+        touch ./15.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=9ViQoDswn14)
+        EOL
+        # 16新北-野柳2
+    - name: Get 16.m3u8
+      run: |
+        touch ./16.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=bliMqxr92OQ)
+        EOL
+        # 17新北-沙崙1
+    - name: Get 17.m3u8
+      run: |
+        touch ./17.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=atE41ZAIc3c)
+        EOL
+        # 18新北-沙崙2
+    - name: Get 18.m3u8
+      run: |
+        touch ./18.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=UuJ08lrqnhI)
+        EOL
+        # 19新北-淡水老街渡船頭
+    - name: Get 19.m3u8
+      run: |
+        touch ./19.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Qv5RDn1sRgk)
+        EOL
+        # 20新北-淡水漁人碼頭
+    - name: Get 20.m3u8
+      run: |
+        touch ./20.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Qv5RDn1sRgk)
+        EOL
+        # 21新北-碧潭吊橋
+    - name: Get 21.m3u8
+      run: |
+        touch ./21.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=XH8mjp6POcg)
+        EOL
+        # 22新北-烏來吊橋
+    - name: Get 22.m3u8
+      run: |
+        touch ./22.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=qJUVVjCjFaw)
+        EOL
+       # 23新北-中永和河岸景象
+    - name: Get 23.m3u8
+      run: |
+        touch ./23.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fqsc5VMlxHI)
+        EOL
+        # 24臺北-大稻埕碼頭
+    - name: Get 24.m3u8
+      run: |
+        touch ./24.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Ndo_8RuefH4)
+        EOL
+        # 25臺北-貓空
+    - name: Get 25.m3u8
+      run: |
+        touch ./25.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=BP69KnwrvxM)
+        EOL
+        # 26臺北-河岸景象
+    - name: Get 26.m3u8
+      run: |
+        touch ./26.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=I8ouYhIq6lU)
+        EOL
+        # 27臺北-象山
+    - name: Get 27.m3u8
+      run: |
+        touch ./27.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=z_fY1pj1VBw)
+        EOL
+        # 28臺北-擎天崗草原
+    - name: Get 28.m3u8
+      run: |
+        touch ./28.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=MnODaP-1JaE)
+        EOL
+       # 29臺北-大屯山公園
+    - name: Get 29.m3u8
+      run: |
+        touch ./29.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6ghffcNt3Nw)
+        EOL
+       # 30臺北-七星山
+    - name: Get 30.m3u8
+      run: |
+        touch ./30.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=PvJr2efA6n0)
+        EOL
+       # 31臺北-冷水坑停車場
+    - name: Get 31.m3u8
+      run: |
+        touch ./31.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=GB64WeZZQPQ)
+        EOL
+        # 32桃園-虎頭山環保公園
+    - name: Get 32.m3u8
+      run: |
+        touch ./32.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9NRT9QhkFCA)
+        EOL
+       # 33桃園-虎頭山-奧爾森林學堂
+    - name: Get 33.m3u8
+      run: |
+        touch ./33.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=72DrwdFhEcc)
+        EOL
+       # 34桃園-虎頭山-奧爾森林學堂
+    - name: Get 34.m3u8
+      run: |
+        touch ./34.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=72DrwdFhEcc)
+        EOL
+       # 35桃園-慈湖水岸廣場
+    - name: Get 35.m3u8
+      run: |
+        touch ./35.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=x6I-9UEe5PY)
+        EOL
+       # 36桃園-三龜戲水觀景台
+    - name: Get 36.m3u8
+      run: |
+        touch ./36.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=S58BDPcD9qA)
+        EOL
+        # 37桃園-石門水庫
+    - name: Get 37.m3u8
+      run: |
+        touch ./37.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=1OTZ9rjFv78)
+        EOL
+        # 38桃園-小烏來寰宇平臺
+    - name: Get 38.m3u8
+      run: |
+        touch ./38.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=qYC8DpGOIJc)
+        EOL
+        # 39桃園-小烏來天空步道
+    - name: Get 39.m3u8
+      run: |
+        touch ./39.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2NS-5SqvhkI)
+        EOL
+       # 40桃園-大溪橋
+    - name: Get 40.m3u8
+      run: |
+        touch ./40.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=FPfv3-dC1Po)
+        EOL
+        # 41桃園-大溪老街
+    - name: Get 41.m3u8
+      run: |
+        touch ./41.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=z_mlibCfgFI)
+        EOL
+       # 42桃園-拉拉山遊客中心
+    - name: Get 42.m3u8
+      run: |
+        touch ./42.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Qsio6jOZ2Y4I)
+        EOL
+        # 43桃園-拉拉山遊客中心
+    - name: Get 43.m3u8
+      run: |
+        touch ./43.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4BX25p_Gwns)
+        EOL
+        # 44桃園-角板山梅園
+    - name: Get 44.m3u8
+      run: |
+        touch ./44.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=E0-nfZjrMiE)
+        EOL
+        # 45桃園-角板山生態池
+    - name: Get 45.m3u8
+      run: |
+        touch ./45.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=D3RGBaU1uUY)
+        EOL
+        # 46桃園-永安漁港1
+    - name: Get 46.m3u8
+      run: |
+        touch ./46.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=FuiQ3uogcXI)
+        EOL
+        # 47桃園-永安漁港2
+    - name: Get 47.m3u8
+      run: |
+        touch ./47.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-X5EbRuv714)
+        EOL
+        # 48台鐵北新竹站
+    - name: Get 48.m3u8
+      run: |
+        touch ./48.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6XBHp79sW-E)
+        EOL
+        # 49苗栗-雪霸汶水遊客中心
+    - name: Get 49.m3u8
+      run: |
+        touch ./49.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Swm_wVKOlIQ)
+        EOL
+        # 50台中-望高寮
+    - name: Get 50.m3u8
+      run: |
+        touch ./50.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=lhXXhDyjFtI)
+        EOL
+        # 51台中-武陵休憩區
+    - name: Get 51.m3u8
+      run: |
+        touch ./51.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=05aIuk6vGfs)
+        EOL
+        # 52台中-武陵櫻花鉤吻鮭實境
+    - name: Get 52.m3u8
+      run: |
+        touch ./52.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OboW2cUrmcA)
+        EOL
+       # 53台中-大甲鎮南宮廟裡
+    - name: Get 53.m3u8
+      run: |
+        touch ./53.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DiUHyI7CKvo)
+        EOL
+        # 54台中-雲品溫泉酒店
+    - name: Get 54.m3u8
+      run: |
+        touch ./54.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=QSBOdl0i8M0)
+        EOL
+        # 55台中-清水紫雲岩廟裡
+    - name: Get 55.m3u8
+      run: |
+        touch ./55.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9oYlphXeawM)
+        EOL
+        # 56台中-梨山賓館
+    - name: Get 56.m3u8
+      run: |
+        touch ./56.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Doj1n3pv30k)
+        EOL
+       # 57台中-梨山攬勝樓
+    - name: Get 57.m3u8
+      run: |
+        touch ./57.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=XWlIcYSFfVA)
+        EOL
+        # 58台中-高美濕地
+    - name: Get 58.m3u8
+      run: |
+        touch ./58.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fjhg3gAnMFg)
+        EOL
+        # 59嘉義-阿里山里佳資訊站
+    - name: Get 59.m3u8
+      run: |
+        touch ./59.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=zDt8FBPozZQ)
+        EOL
+        # 60嘉義-阿里山森林遊樂區
+    - name: Get 60.m3u8
+      run: |
+        touch ./60.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=RhxSFMX-ovM)
+        EOL
+        # 61嘉義-阿里山森林遊樂區
+    - name: Get 61.m3u8
+      run: |
+        touch ./61.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
+        EOL
+        # 62嘉義-奮起湖
+    - name: Get 62.m3u8
+      run: |
+        touch ./62.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=jXcy8dmGYqg)
+        EOL
+        # 63嘉義-太平雲梯
+    - name: Get 63.m3u8
+      run: |
+        touch ./63.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=dY2cRNr5Buw)
+        EOL
+        # 64嘉義-牛埔大草原
+    - name: Get 64.m3u8
+      run: |
+        touch ./64.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=hMYs60qtkK8)
+        EOL
+        # 65嘉義-二延平步道
+    - name: Get 65.m3u8
+      run: |
+        touch ./65.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=j2L_559nCjc)
+        EOL
+        # 66嘉義-生力農場
+    - name: Get 66.m3u8
+      run: |
+        touch ./66.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=agEzlv9n9Eg)
+        EOL
+        # 67雲林-箔子寮1
+    - name: Get 67.m3u8
+      run: |
+        touch ./67.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=KJ_S1-oq43Y)
+        EOL
+        # 68雲林-箔子寮2
+    - name: Get 68.m3u8
+      run: |
+        touch ./68.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=skLFVQuJXto)
+        EOL
+        # 69台南-安平港1
+    - name: Get 69.m3u8
+      run: |
+        touch ./69.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=r8t8FMYPWbU)
+        EOL
+        # 70台南-安平港2
+    - name: Get 70.m3u8
+      run: |
+        touch ./70.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NOd9r65xrkA)
+        EOL
+        # 71台南-黃金海岸
+    - name: Get 71.m3u8
+      run: |
+        touch ./71.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=yeoV-wBdoxQ)
+        EOL
+        # 72台南-井仔腳瓦盤鹽田
+    - name: Get 72.m3u8
+      run: |
+        touch ./72.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=TxeeTN7kSzA)
+        EOL
+        # 73台南-北門南鯤鯓代天府
+    - name: Get 73.m3u8
+      run: |
+        touch ./73.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=g1XTpW48LBQ)
+        EOL
+        # 74高雄-壽山情人觀景台
+    - name: Get 74.m3u8
+      run: |
+        touch ./74.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=C03Itx8iSC0)
+        EOL
+        # 75高雄-鳳山蓮池潭
+    - name: Get 75.m3u8
+      run: |
+        touch ./75.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=dCycHSYZBmg)
+        EOL
+        # 76高雄-梓官赤崁海堤
+    - name: Get 76.m3u8
+      run: |
+        touch ./76.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=sKrqs-5Auqo)
+        EOL
+        # 77高雄-旗津海岸
+    - name: Get 77.m3u8
+      run: |
+        touch ./77.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=ka7FV0sCvxQ)
+        EOL
+        # 78墾丁大街直播(南下)
+    - name: Get 78.m3u8
+      run: |
+        touch ./78.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=EfJ-6N9P4tw)
+        EOL
+       # 79墾丁大街直播(北上)
+    - name: Get 79.m3u8
+      run: |
+        touch ./79.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Y9kOU1xFio8)
+        EOL
+        # 80墾丁-萬里桐海邊
+    - name: Get 80.m3u8
+      run: |
+        touch ./80.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=qK8V1VArT2I)
+        EOL
+        # 81墾丁-南灣
+    - name: Get 81.m3u8
+      run: |
+        touch ./81.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=h9JmARss84U)
+        EOL
+        # 82墾丁-船帆石
+    - name: Get 82.m3u8
+      run: |
+        touch ./82.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MqDYaYzE5K4)
+        EOL
+       # 83台東-三仙台
+    - name: Get 83.m3u8
+      run: |
+        touch ./83.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=dQ7Sd6PGLdA)
+        EOL
+        # 84台東-多良車站
+    - name: Get 84.m3u8
+      run: |
+        touch ./84.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=UCG1aXVO8H8)
+        EOL
+        # 85台東-長虹橋
+    - name: Get 85.m3u8
+      run: |
+        touch ./85.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JnD8Rk3o0BM)
+        EOL
+        # 86台東-金崙大橋
+    - name: Get 86.m3u8
+      run: |
+        touch ./86.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9QqBz3kNHis)
+        EOL
+        # 87台東-加路蘭游憩區
+    - name: Get 87.m3u8
+      run: |
+        touch ./87.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=AKl3F6cAY2Q)
+        EOL
+       # 88台東-都曆遊客中心
+    - name: Get 88.m3u8
+      run: |
+        touch ./88.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JhQuR77AR7U)
+        EOL
+        # 89台東-杉原灣
+    - name: Get 89.m3u8
+      run: |
+        touch ./89.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=VqS_Y8ZCj6M)
+        EOL
+        # 90台東-富岡漁港
+    - name: Get 90.m3u8
+      run: |
+        touch ./90.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=D945F_dauls)
+        EOL
+        # 91台東-富岡漁港1
+    - name: Get 91.m3u8
+      run: |
+        touch ./91.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=UunWG7RsbL8)
+        EOL
+        # 92台東-富岡漁港2
+    - name: Get 92.m3u8
+      run: |
+        touch ./92.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=zk3ZReYj_qk)
+        EOL
+        # 93台東-富山海域
+    - name: Get 93.m3u8
+      run: |
+        touch ./93.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Rsq95SQ26bY)
+        EOL
+        # 94台東-金樽浪點
+    - name: Get 94.m3u8
+      run: |
+        touch ./94.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=q3KJt-SZc2s)
+        EOL
+        # 95台東-鹿野高臺
+    - name: Get 95.m3u8
+      run: |
+        touch ./95.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=KkDSzZcqQTQ)
+        EOL
+        # 96台東-池上天堂路
+    - name: Get 96.m3u8
+      run: |
+        touch ./96.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WA7GEXVGAP0)
+        EOL
+        # 97台東-華源曙光觀景台
+    - name: Get 97.m3u8
+      run: |
+        touch ./97.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=TY4qQElcUrA)
+        EOL
+        # 98花蓮-七星潭北埔安檢所1
+    - name: Get 98.m3u8
+      run: |
+        touch ./98.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tWdI0YfY93Y)
+        EOL
+        # 99花蓮-七星潭北埔安檢所2
+    - name: Get 99.m3u8
+      run: |
+        touch ./99.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=j3l32VFi5M8)
+        EOL
+        # 100花蓮-石梯坪1
+    - name: Get 100.m3u8
+      run: |
+        touch ./100.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=EPEWq6DzSWU)
+        EOL
+        # 101花蓮-石梯坪4K
+    - name: Get 101.m3u8
+      run: |
+        touch ./101.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=mXnigLvIL0Q)
+        EOL
+        # 102花蓮-壽豐-花蓮大橋
+    - name: Get 102.m3u8
+      run: |
+        touch ./102.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oM1OOjGvmTA)
+        EOL
+        # 103花蓮-鯉魚潭
+    - name: Get 103.m3u8
+      run: |
+        touch ./103.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=X2b72rK4YpY)
+        EOL
+        # 104花蓮-六十石山
+    - name: Get 104.m3u8
+      run: |
+        touch ./104.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DliL9uMtPrI)
+        EOL
+        # 105花蓮-赤科山
+    - name: Get 105.m3u8
+      run: |
+        touch ./105.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=gxOdykEMicA)
+        EOL
+        # 106花蓮-赤科山
+    - name: Get 106.m3u8
+      run: |
+        touch ./106.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Ic6hqus0tjA)
+        EOL
+        # 107花蓮-南濱守望哨
+    - name: Get 107.m3u8
+      run: |
+        touch ./107.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ww8s-erahaU)
+        EOL
+        # 108花蓮-大石鼻山
+    - name: Get 108.m3u8
+      run: |
+        touch ./108.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JkoXcXI04Qk)
+        EOL
+        # 109金門-建功嶼
+    - name: Get 109.m3u8
+      run: |
+        touch ./109.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=uh_yNAE01w8)
+        EOL
+        # 110金門-134高地
+    - name: Get 110.m3u8
+      run: |
+        touch ./110.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-srNHTE-Nf0)
+        EOL  
+        # 111馬祖-南竿福澳港
+    - name: Get 111.m3u8
+      run: |
+        touch ./111.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=g-UAUkDsRSs)
+        EOL  
+        # 112馬祖-北竿白沙港
+    - name: Get 112.m3u8
+      run: |
+        touch ./112.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=g1Elfy8Zq0A)
+        EOL  
+        # 113馬祖-連江議會眺望北竿
+    - name: Get 113.m3u8
+      run: |
+        touch ./113.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6GXK2XMGgUc)
+        EOL  
+        # 114馬祖東引中柱港
+    - name: Get 114.m3u8
+      run: |
+        touch ./114.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=d-uG7fiabCE)
+        EOL  
+        # 115馬祖-西莒青帆港
+    - name: Get 115.m3u8
+      run: |
+        touch ./115.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls  https://www.youtube.com/watch?v=R3geopUJojU)
+        EOL  
+        # 116摩西分海即時影像-北寮奎壁山
+    - name: Get 116.m3u8
+      run: |
+        touch ./116.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=46Wd3A-0L2k)
+        EOL  
+        # 117綠島-南寮漁港
+    - name: Get 117.m3u8
+      run: |
+        touch ./117.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=wTHhv7M0vCI)
+        EOL  
+        # 118綠島-帆船鼻
+    - name: Get 118.m3u8
+      run: |
+        touch ./118.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=pLdBc8PvZko)
+        EOL  
+        # 119綠島-柴口浮潛區
+    - name: Get 119.m3u8
+      run: |
+        touch ./119.m3u8
+        sudo cat >./1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=zQQSfAkjCJc)
+        EOL  
+
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+    - name: commit & push
+      run: |
+        git commit -m "links are updated"
+        git push
