@@ -940,7 +940,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=zk3ZReYj_qk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=D945F_dauls)
         EOL
         # 93台東-富山海域
     - name: Get 93.m3u8
