@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=3jc_ZeEGGJc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=azcfWOaRFl8)
         EOL
         # 55台中-清水紫雲岩廟裡
     - name: Get 55.m3u8
