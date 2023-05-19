@@ -500,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=c0kuWaJQ2QI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=pv-gWn-ONdM)
         EOL
         # 49苗栗-雪霸汶水遊客中心
     - name: Get 49.m3u8
