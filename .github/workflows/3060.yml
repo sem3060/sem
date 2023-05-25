@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=RjPaF43hst0)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NHZNDmpQNeM)
         EOL
         # 03宜蘭-福隆3
     - name: Get 03.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=VOV0iYMzsig)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=X12bJLxfzps)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
@@ -490,7 +490,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=-X5EbRuv714)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=zMmst3Sxrks)
         EOL
         # 48台鐵北新竹站-常換
     - name: Get 48.m3u8
@@ -500,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=pv-gWn-ONdM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=0Zez6hYlq_8)
         EOL
         # 49苗栗-雪霸汶水遊客中心
     - name: Get 49.m3u8
@@ -612,7 +612,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=zDt8FBPozZQ)
         EOL
-        # 60嘉義-阿里山森林遊樂區
+        # 60嘉義-阿里山國家風景區管理處
     - name: Get 60.m3u8
       run: |
         touch ./60.m3u8
@@ -620,9 +620,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=PN7_l691u_E)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
         EOL
-        # 61嘉義-阿里山森林遊樂區
+        # 61嘉義-阿里山牛埔仔大草原
     - name: Get 61.m3u8
       run: |
         touch ./61.m3u8
@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=hMYs60qtkK8)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
@@ -720,7 +720,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qstxqzCMWtM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=29EuFZe3ptg)
         EOL
         # 71台南-黃金海岸
     - name: Get 71.m3u8
