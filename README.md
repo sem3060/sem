@@ -62,7 +62,7 @@
 
 32.桃園-虎頭山環保公園,https://raw.githubusercontent.com/sem3060/sem/main/32.m3u8
 
-33.桃園-虎頭山-奧爾森林學堂,https://raw.githubusercontent.com/sem3060/sem/main/33.m3u8
+33.桃園-虎頭山-虎頭山環保公園,https://raw.githubusercontent.com/sem3060/sem/main/33.m3u8
 
 34.桃園-虎頭山-奧爾森林學堂,https://raw.githubusercontent.com/sem3060/sem/main/34.m3u8
 
@@ -82,7 +82,7 @@
 
 42.桃園-拉拉山遊客中心,https://raw.githubusercontent.com/sem3060/sem/main/42.m3u8
 
-43.桃園-拉拉山遊客中心,https://raw.githubusercontent.com/sem3060/sem/main/43.m3u8
+43.桃園-角板山思親亭,https://raw.githubusercontent.com/sem3060/sem/main/43.m3u8
 
 44.桃園-角板山梅園,https://raw.githubusercontent.com/sem3060/sem/main/44.m3u8
 
