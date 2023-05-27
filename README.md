@@ -60,7 +60,7 @@
 
 31.臺北-冷水坑停車場,https://raw.githubusercontent.com/sem3060/sem/main/31.m3u8
 
-32.桃園-虎頭山環保公園,https://raw.githubusercontent.com/sem3060/sem/main/32.m3u8
+32.臺北-碧山巖,https://raw.githubusercontent.com/sem3060/sem/main/32.m3u8
 
 33.桃園-虎頭山-虎頭山環保公園,https://raw.githubusercontent.com/sem3060/sem/main/33.m3u8
 
