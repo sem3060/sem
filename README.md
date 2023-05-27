@@ -118,7 +118,7 @@
 
 60.嘉義-阿里山國家風景區管理處,https://raw.githubusercontent.com/sem3060/sem/main/60.m3u8
 
-61.嘉義-阿里山牛埔仔大草原,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
+61.嘉義-阿里山森林遊樂區,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
 
 62.嘉義-奮起湖,https://raw.githubusercontent.com/sem3060/sem/main/62.m3u8
 
