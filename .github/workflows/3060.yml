@@ -230,7 +230,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=-1uYUbk3nkU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=qe1U0yFN5QE)
         EOL
         # 22新北-烏來吊橋
     - name: Get 22.m3u8
@@ -500,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=0Zez6hYlq_8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fh0Bl2XVSLM)
         EOL
         # 49苗栗-雪霸汶水遊客中心
     - name: Get 49.m3u8
@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=JX2KhubxKaY)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=azcfWOaRFl8&t=4s)
         EOL
         # 55台中-清水紫雲岩廟裡
     - name: Get 55.m3u8
@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WaaSzgBDr5U)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
@@ -1180,7 +1180,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=46Wd3A-0L2k)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oYuZTdLa8YE)
         EOL  
         # 117綠島-南寮漁港
     - name: Get 117.m3u8
