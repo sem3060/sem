@@ -6,9 +6,9 @@
 
 04.宜蘭-外澳沙灘,https://raw.githubusercontent.com/sem3060/sem/main/04.m3u8
 
-05.蘇澳-安南1,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
+05.蘇澳-南安1,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
 
-06.蘇澳-安南2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
+06.蘇澳-南安2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
 
 07.礁溪-寒沐酒店,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
 
@@ -66,7 +66,7 @@
 
 34.桃園-虎頭山-奧爾森林學堂,https://raw.githubusercontent.com/sem3060/sem/main/34.m3u8
 
-35.桃園-慈湖水岸廣場,https://raw.githubusercontent.com/sem3060/sem/main/35.m3u8
+35.桃園-後慈湖,https://raw.githubusercontent.com/sem3060/sem/main/35.m3u8
 
 36.桃園-三龜戲水觀景台,https://raw.githubusercontent.com/sem3060/sem/main/36.m3u8
 
