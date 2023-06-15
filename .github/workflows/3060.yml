@@ -370,7 +370,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urlshttps://www.youtube.com/watch?v=00_cG4RbXCU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=00_cG4RbXCU)
         EOL
        # 36桃園-三龜戲水觀景台
     - name: Get 36.m3u8
