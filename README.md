@@ -14,7 +14,7 @@
 
 08.新北-龍洞1,https://raw.githubusercontent.com/sem3060/sem/main/08.m3u8
 
-09.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
+09.新北-福隆海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
 
 10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
@@ -104,7 +104,7 @@
 
 53.台中-大甲鎮南宮廟裡,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
 
-54.台中-雲品溫泉酒店,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
+54.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
 
 55.台中-清水紫雲岩廟裡,https://raw.githubusercontent.com/sem3060/sem/main/55.m3u8
 
