@@ -100,7 +100,7 @@
 
 51.台中-武陵休憩區,https://raw.githubusercontent.com/sem3060/sem/main/51.m3u8
 
-52.台中-武陵櫻花鉤吻鮭實境,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
+52.台中-日月潭九蛙伊達邵,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
 
 53.台中-大甲鎮南宮廟裡,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
 
@@ -176,7 +176,7 @@
 
 89.台東-杉原灣,https://raw.githubusercontent.com/sem3060/sem/main/89.m3u8
 
-90.台東-富岡漁港,https://raw.githubusercontent.com/sem3060/sem/main/90.m3u8
+90.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/90.m3u8
 
 91.台東-富岡漁港1,https://raw.githubusercontent.com/sem3060/sem/main/91.m3u8
 
