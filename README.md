@@ -14,7 +14,7 @@
 
 08.新北-龍洞1,https://raw.githubusercontent.com/sem3060/sem/main/08.m3u8
 
-09.新北-龍洞2,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
+09.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
 
 10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
