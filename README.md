@@ -42,7 +42,7 @@
 
 22.新北-烏來吊橋,https://raw.githubusercontent.com/sem3060/sem/main/22.m3u8
 
-23.新北-中永和河岸景象,https://raw.githubusercontent.com/sem3060/sem/main/23.m3u8
+23.新北-中和烘爐地影像,https://raw.githubusercontent.com/sem3060/sem/main/23.m3u8
 
 24.臺北-大稻埕碼頭,https://raw.githubusercontent.com/sem3060/sem/main/24.m3u8
 
