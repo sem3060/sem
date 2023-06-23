@@ -18,7 +18,7 @@
 
 10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
-11.新北-碧砂漁港2,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
+11.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
 
 12.基隆-和平島公園,https://raw.githubusercontent.com/sem3060/sem/main/12.m3u8
 
