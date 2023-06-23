@@ -102,7 +102,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=jjIHC5tjPQk)
         EOL
-        # 09新北-龍洞2
+        # 09新北-福隆海水浴場
     - name: Get 09.m3u8
       run: |
         touch ./09.m3u8
@@ -110,7 +110,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=d6pb0Dt-SLs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-qBYUe4Y8QA)
         EOL
         # 10新北-碧砂漁港1
     - name: Get 10.m3u8
@@ -122,7 +122,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=-k045TAqfV8)
         EOL
-        # 11新北-白沙灣
+        # 11新北-白沙灣海水浴場
     - name: Get 11.m3u8
       run: |
         touch ./11.m3u8
@@ -552,7 +552,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=DiUHyI7CKvo)
         EOL
-        # 54台中-雲品溫泉酒店
+        # 54新北-鼻頭角服務區
     - name: Get 54.m3u8
       run: |
         touch ./54.m3u8
@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=azcfWOaRFl8&t=4s)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=v-CaksJLyrM)
         EOL
         # 55台中-清水紫雲岩廟裡
     - name: Get 55.m3u8
