@@ -130,9 +130,9 @@
 
 66.嘉義-生力農場,https://raw.githubusercontent.com/sem3060/sem/main/66.m3u8
 
-67.雲林-箔子寮1,https://raw.githubusercontent.com/sem3060/sem/main/67.m3u8
+67.南投-清境觀星園,https://raw.githubusercontent.com/sem3060/sem/main/67.m3u8
 
-68.雲林-箔子寮2,https://raw.githubusercontent.com/sem3060/sem/main/68.m3u8
+68.墾丁-船帆石沙灘,https://raw.githubusercontent.com/sem3060/sem/main/68.m3u8
 
 69.台南-安平港1,https://raw.githubusercontent.com/sem3060/sem/main/69.m3u8
 
@@ -142,7 +142,7 @@
 
 72.台南-井仔腳瓦盤鹽田,https://raw.githubusercontent.com/sem3060/sem/main/72.m3u8
 
-73.台南-北門南鯤鯓代天府,https://raw.githubusercontent.com/sem3060/sem/main/73.m3u8
+73.北港-朝天宮,https://raw.githubusercontent.com/sem3060/sem/main/73.m3u8
 
 74.高雄-壽山情人觀景台,https://raw.githubusercontent.com/sem3060/sem/main/74.m3u8
 
