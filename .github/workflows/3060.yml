@@ -682,7 +682,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=agEzlv9n9Eg)
         EOL
-        # 67雲林-箔子寮1
+        # 67南投-清境-觀星園(星空)
     - name: Get 67.m3u8
       run: |
         touch ./67.m3u8
@@ -690,9 +690,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=KJ_S1-oq43Y)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=FEARsrOHTnI)
         EOL
-        # 68雲林-箔子寮2
+        # 68墾丁-船帆石沙灘
     - name: Get 68.m3u8
       run: |
         touch ./68.m3u8
@@ -700,7 +700,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=skLFVQuJXto)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MqDYaYzE5K4)
         EOL
         # 69台南-安平港1
     - name: Get 69.m3u8
@@ -990,7 +990,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=TY4qQElcUrA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=TY4qQElcUrA&list=PLOFDpgHtb3GUt0ZOefyYs0sThvJo8Xntu&index=77)
         EOL
         # 98花蓮-七星潭北埔安檢所1
     - name: Get 98.m3u8
