@@ -692,7 +692,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=FEARsrOHTnI)
         EOL
-        # 68墾丁-船帆石沙灘
+        # 68台東-大石鼻山
     - name: Get 68.m3u8
       run: |
         touch ./68.m3u8
@@ -700,7 +700,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=MqDYaYzE5K4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JkoXcXI04Qk)
         EOL
         # 69台南-安平港1
     - name: Get 69.m3u8
@@ -832,7 +832,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=h9JmARss84U)
         EOL
-        # 82墾丁-船帆石
+        # 82墾丁-船帆石海灘
     - name: Get 82.m3u8
       run: |
         touch ./82.m3u8
