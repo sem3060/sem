@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=U2318bfwfgI)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
