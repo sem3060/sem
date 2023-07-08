@@ -98,19 +98,19 @@
 
 50台中-望高寮,https://raw.githubusercontent.com/sem3060/sem/main/50.m3u8
 
-51.台中-武陵休憩區,https://raw.githubusercontent.com/sem3060/sem/main/51.m3u8
+51.台中-南投武陵休憩區,https://raw.githubusercontent.com/sem3060/sem/main/51.m3u8
 
-52.台中-日月潭九蛙伊達邵,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
+52.台中-南投日月潭伊達邵,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
 
 53.台中-大甲鎮南宮廟裡,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
 
-54.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
+54.台中-南投日月潭九蛙即時影像,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
 
 55.台中-清水紫雲岩廟裡,https://raw.githubusercontent.com/sem3060/sem/main/55.m3u8
 
-56.台中-梨山賓館,https://raw.githubusercontent.com/sem3060/sem/main/56.m3u8
+56.台中-南投梨山賓館,https://raw.githubusercontent.com/sem3060/sem/main/56.m3u8
 
-57.台中-梨山攬勝樓,https://raw.githubusercontent.com/sem3060/sem/main/57.m3u8
+57.台中-南投梨山攬勝樓,https://raw.githubusercontent.com/sem3060/sem/main/57.m3u8
 
 58.台中-高美濕地,https://raw.githubusercontent.com/sem3060/sem/main/58.m3u8
 
