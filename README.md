@@ -10,7 +10,7 @@
 
 06.蘇澳-南安2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
 
-07.礁溪-寒沐酒店,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
+07.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
 
 08.新北-龍洞1,https://raw.githubusercontent.com/sem3060/sem/main/08.m3u8
 
