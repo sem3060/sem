@@ -18,9 +18,9 @@
 
 10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
-11.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
+11.新北-碧砂漁港2,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
 
-12.基隆-和平島公園,https://raw.githubusercontent.com/sem3060/sem/main/12.m3u8
+12.基隆-和平島公園,https2//raw.githubusercontent.com/sem3060/sem/main/12.m3u8
 
 13.基隆-和平島1,https://raw.githubusercontent.com/sem3060/sem/main/13.m3u8
 
@@ -118,7 +118,7 @@
 
 60.嘉義-阿里山國家風景區管理處,https://raw.githubusercontent.com/sem3060/sem/main/60.m3u8
 
-61.嘉義-阿里山森林遊樂區,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
+61.馬祖-東引中柱港2,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
 
 62.嘉義-奮起湖,https://raw.githubusercontent.com/sem3060/sem/main/62.m3u8
 
@@ -224,7 +224,7 @@
 
 113.馬祖-連江議會眺望北竿,https://raw.githubusercontent.com/sem3060/sem/main/113.m3u8
 
-114.馬祖東引中柱港,https://raw.githubusercontent.com/sem3060/sem/main/114.m3u8
+114.馬祖東引中柱港1,https://raw.githubusercontent.com/sem3060/sem/main/114.m3u8
 
 115.馬祖-西莒青帆港,https://raw.githubusercontent.com/sem3060/sem/main/115.m3u8
 
