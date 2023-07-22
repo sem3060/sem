@@ -130,7 +130,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Y2_s5t0LSig)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Jb3XoFHq7l4)
         EOL
         # 12基隆-和平島公園
     - name: Get 12.m3u8
@@ -490,8 +490,8 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=gHGHJSBySEk)
-        EOL
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9xYat196Kw8)
+        EOL        
         # 48台鐵北新竹站
     - name: Get 48.m3u8
       run: |
