@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1690125427/ei/E_C8ZLalKuaM_9EPpbuPIA/ip/20.57.45.144/id/R3geopUJojU.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/hls_chunk_host/rr4---sn-p5qddn7r.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/Ul2Sq6GmBV3YsUK4N0Sj0jZvZSzhjsw/vprv/1/playlist_type/DVR/initcwndbps/7213750/mh/hE/mm/44/mn/sn-p5qddn7r/ms/lva/mv/m/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246,24362686,24363392/beids/24350018/mt/1690103557/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRgIhANUFE4V2E8tLdL2x9yVmvJXHDsl0Vu_Q1_gP8all79xNAiEA01V7HhKiH-lhW8KXtZWLfD6k754lSyoKrNXy_qscaGM%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhAKyoDscCDJmdRXXwuuk3BgZVir70Yv23UOY3KDzTmS-zAiEAvwh_XPNItpXe5rke62q_fzJ6HZJ8XoeQmT475O4HgQQ%3D/playlist/index.m3u8
 EOL  
 # 116摩西分海即時影像-北寮奎壁山
