@@ -100,7 +100,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=vApYH3LzHUU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=_3r3ie85O5A)
         EOL
         # 09新北-福隆海水浴場
     - name: Get 09.m3u8
