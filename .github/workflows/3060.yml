@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WKcwIdRr1zk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6JtZiXvTpUs)
         EOL
         # 11新北-碧砂漁港2
     - name: Get 11.m3u8
@@ -270,7 +270,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=BP69KnwrvxM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tD_a03trUvE)
         EOL
         # 26臺北-河岸景象
     - name: Get 26.m3u8
@@ -490,7 +490,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=9xYat196Kw8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OA_0kQQcRXc)
         EOL        
         # 48台鐵北新竹站
     - name: Get 48.m3u8
@@ -710,7 +710,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=RyQJhj5D8UU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=s2Z4hdqeYfM)
         EOL
         # 70台南-安平港2
     - name: Get 70.m3u8
@@ -820,7 +820,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qK8V1VArT2I)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oIhI4nMeGtA)
         EOL
         # 81墾丁-南灣
     - name: Get 81.m3u8
@@ -910,7 +910,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls  https://www.youtube.com/watch?v=VqS_Y8ZCj6M)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VqS_Y8ZCj6M)
         EOL
         # 90新北-白沙灣海水浴場
     - name: Get 90.m3u8
