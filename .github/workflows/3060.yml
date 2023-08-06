@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=QuJYd0RBemw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Uq6Rr1IjWfY)
         EOL 
         # 14基隆-和平島2
     - name: Get 14.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=yukzKa8DHGI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=8iCyIjqzByg)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=5KUiXi2K_30)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=MhF4SYygBro)
         EOL
         # 19新北-淡水老街渡船頭
     - name: Get 19.m3u8
@@ -262,7 +262,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Ndo_8RuefH4)
         EOL
-        # 25臺北-貓空
+        # 25臺北-大佳河濱公園
     - name: Get 25.m3u8
       run: |
         touch ./25.m3u8
@@ -270,7 +270,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=tD_a03trUvE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fP4ecxfsJos)
         EOL
         # 26臺北-河岸景象
     - name: Get 26.m3u8
@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=7hcN3A96pMw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=DTQ9btQDO60)
         EOL
         # 55台中-清水紫雲岩廟裡
     - name: Get 55.m3u8
