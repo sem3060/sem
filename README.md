@@ -32,7 +32,7 @@
 
 17.新北-沙崙1,https://raw.githubusercontent.com/sem3060/sem/main/17.m3u8
 
-18.新北-沙崙2,https://raw.githubusercontent.com/sem3060/sem/main/18.m3u8
+18.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/18.m3u8
 
 19.新北-淡水老街渡船頭,https://raw.githubusercontent.com/sem3060/sem/main/19.m3u8
 
