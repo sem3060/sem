@@ -132,7 +132,7 @@
 
 67.南投-清境觀星園,https://raw.githubusercontent.com/sem3060/sem/main/67.m3u8
 
-68.墾丁-船帆石沙灘,https://raw.githubusercontent.com/sem3060/sem/main/68.m3u8
+68.台東-大石鼻山,https://raw.githubusercontent.com/sem3060/sem/main/68.m3u8
 
 69.台南-安平港1,https://raw.githubusercontent.com/sem3060/sem/main/69.m3u8
 
