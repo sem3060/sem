@@ -118,7 +118,7 @@
 
 60.嘉義-阿里山國家風景區管理處,https://raw.githubusercontent.com/sem3060/sem/main/60.m3u8
 
-61.馬祖-東引中柱港2,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
+61.嘉義-阿里山森林遊樂區,https://raw.githubusercontent.com/sem3060/sem/main/61.m3u8
 
 62.嘉義-奮起湖,https://raw.githubusercontent.com/sem3060/sem/main/62.m3u8
 
@@ -142,7 +142,7 @@
 
 72.台南-井仔腳瓦盤鹽田,https://raw.githubusercontent.com/sem3060/sem/main/72.m3u8
 
-73.北港-朝天宮,https://raw.githubusercontent.com/sem3060/sem/main/73.m3u8
+73.嘉義-北港朝天宮,https://raw.githubusercontent.com/sem3060/sem/main/73.m3u8
 
 74.高雄-壽山情人觀景台,https://raw.githubusercontent.com/sem3060/sem/main/74.m3u8
 
@@ -176,7 +176,7 @@
 
 89.台東-杉原灣,https://raw.githubusercontent.com/sem3060/sem/main/89.m3u8
 
-90.新北-白沙灣海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/90.m3u8
+90.台東-富岡漁港,https://raw.githubusercontent.com/sem3060/sem/main/90.m3u8
 
 91.台東-富岡漁港1,https://raw.githubusercontent.com/sem3060/sem/main/91.m3u8
 
