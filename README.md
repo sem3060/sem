@@ -64,7 +64,7 @@
 
 33.桃園-虎頭山-虎頭山環保公園,https://raw.githubusercontent.com/sem3060/sem/main/33.m3u8
 
-34.桃園-虎頭山-奧爾森林學堂,https://raw.githubusercontent.com/sem3060/sem/main/34.m3u8
+34.桃園-永安漁港即時動態,https://raw.githubusercontent.com/sem3060/sem/main/34.m3u8
 
 35.桃園-後慈湖,https://raw.githubusercontent.com/sem3060/sem/main/35.m3u8
 
