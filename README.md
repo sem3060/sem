@@ -46,7 +46,7 @@
 
 24.臺北-大稻埕碼頭,https://raw.githubusercontent.com/sem3060/sem/main/24.m3u8
 
-25.臺北-大家河濱公園,https://raw.githubusercontent.com/sem3060/sem/main/25.m3u8
+25.臺北-大佳河濱公園,https://raw.githubusercontent.com/sem3060/sem/main/25.m3u8
 
 26.臺北-河岸景象,https://raw.githubusercontent.com/sem3060/sem/main/26.m3u8
 
