@@ -208,7 +208,7 @@
 
 105.花蓮-赤科山,https://raw.githubusercontent.com/sem3060/sem/main/105.m3u8
 
-106.花蓮-赤科山,https://raw.githubusercontent.com/sem3060/sem/main/106.m3u8
+106.花蓮-忘憂亭海岸線,https://raw.githubusercontent.com/sem3060/sem/main/106.m3u8
 
 107.花蓮-南濱守望哨,https://raw.githubusercontent.com/sem3060/sem/main/107.m3u8
 
