@@ -102,9 +102,9 @@
 
 52.台中-南投日月潭伊達邵,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
 
-53.台中-大甲鎮南宮廟裡,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
+53.台中-北區松竹寺,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
 
-54.台中-南投日月潭九蛙即時影像,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
+54.台中-南投日月潭伊達邵碼頭,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
 
 55.台中-清水紫雲岩廟裡,https://raw.githubusercontent.com/sem3060/sem/main/55.m3u8
 
