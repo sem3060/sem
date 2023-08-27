@@ -50,7 +50,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=HXXJ59qKWCE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=b1qx_oVh4lY)
         EOL
         # 04宜蘭-外澳沙灘
     - name: Get 04.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=KzIZqeweSbY)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=vhSeP5RsU2c)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
@@ -460,7 +460,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=niv-Fc3Gjys)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=AKa4UPqA9iM)
         EOL
         # 45桃園-角板山生態池
     - name: Get 45.m3u8
@@ -532,7 +532,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=05aIuk6vGfs)
         EOL
-        # 52台中-南投日月潭伊達邵
+        # 52台中-南投日月潭九蛙即時影像
     - name: Get 52.m3u8
       run: |
         touch ./52.m3u8
@@ -540,7 +540,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=mOfLAHC5fWQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=-Z9I8hEnrF4)
         EOL
        # 53台中-北屯區松竹寺
     - name: Get 53.m3u8
@@ -552,7 +552,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=EnYCdyNPdog)
         EOL
-        # 54台中-南投日月潭伊達邵碼頭
+        # 54台中-大甲鎮瀾宮內
     - name: Get 54.m3u8
       run: |
         touch ./54.m3u8
@@ -560,9 +560,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=mOfLAHC5fWQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rGh_RsdpxUs)
         EOL
-        # 55台中-清水紫雲岩廟裡
+        # 55台中-清水紫雲岩廟內
     - name: Get 55.m3u8
       run: |
         touch ./55.m3u8
@@ -720,7 +720,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls 宜蘭大里1)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VURvOC0n_vU)
         EOL
         # 71台南-黃金海岸
     - name: Get 71.m3u8
