@@ -40,7 +40,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=s9ad4wS68xQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4jPp2i_rk7k)
         EOL
         # 03宜蘭-福隆3
     - name: Get 03.m3u8
@@ -62,7 +62,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=Vm0KfUv4Mc4)
         EOL
-        # 05蘇澳-南方澳1
+        # 05蘇澳-南方澳
     - name: Get 05.m3u8
       run: |
         touch ./05.m3u8
@@ -70,9 +70,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=m4T0-Czq57s)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=prTYfH6zo2Q)
         EOL
-        # 06蘇澳-南方澳2
+        # 06蘇澳-南安國中2
     - name: Get 06.m3u8
       run: |
         touch ./06.m3u8
@@ -80,7 +80,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=W-xR2UcF94E)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=NtpxNO1Eszo)
         EOL
         # 07新北-鼻頭角服務區
     - name: Get 07.m3u8
@@ -150,7 +150,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=_srQCLpu9b4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=OWcVX6IPSHg)
         EOL 
         # 14基隆-和平島2
     - name: Get 14.m3u8
@@ -160,7 +160,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=vhSeP5RsU2c)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=v74Zt0tHbo4)
         EOL
         # 15新北-野柳1
     - name: Get 15.m3u8
@@ -370,7 +370,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=svta-DiyeC8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=kYeHzH4Ys4I)
         EOL
        # 36桃園-三龜戲水觀景台
     - name: Get 36.m3u8
