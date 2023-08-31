@@ -6,9 +6,9 @@
 
 04.宜蘭-外澳沙灘,https://raw.githubusercontent.com/sem3060/sem/main/04.m3u8
 
-05.蘇澳-南方澳1,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
+05.蘇澳-南方澳,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
 
-06.蘇澳-南方澳2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
+06.蘇澳-南安國中2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
 
 07.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
 
@@ -136,7 +136,7 @@
 
 69.台南-安平港1,https://raw.githubusercontent.com/sem3060/sem/main/69.m3u8
 
-70.台南-安平港2,https://raw.githubusercontent.com/sem3060/sem/main/70.m3u8
+70.台南-宜蘭大里2,https://raw.githubusercontent.com/sem3060/sem/main/70.m3u8
 
 71.台南-黃金海岸,https://raw.githubusercontent.com/sem3060/sem/main/71.m3u8
 
