@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=zmUtONMXwGY)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=nJ80rkXmE8A)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
@@ -932,7 +932,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=D945F_dauls)
         EOL
-        # 92台東-富岡漁港2
+        # 92台東-富岡漁港2-中角灣
     - name: Get 92.m3u8
       run: |
         touch ./92.m3u8
@@ -940,7 +940,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=w4UxE0sdxbg)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=SkBD4SncVhE)
         EOL
         # 93台東-富山海域
     - name: Get 93.m3u8
