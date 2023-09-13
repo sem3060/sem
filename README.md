@@ -8,17 +8,17 @@
 
 05.蘇澳-南方澳,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
 
-06.蘇澳-南安國中2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
+06.蘇澳-南方澳2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
 
 07.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
 
-08.新北-龍洞1,https://raw.githubusercontent.com/sem3060/sem/main/08.m3u8
+08.新北-九份即時影像,https://raw.githubusercontent.com/sem3060/sem/main/08.m3u8
 
 09.新北-福隆海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
 
 10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
-11.新北-碧砂漁港2,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
+11.新北-中角灣即時影像,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
 
 12.基隆-和平島公園,https://raw.githubusercontent.com/sem3060/sem/main/12.m3u8
 
@@ -228,7 +228,7 @@
 
 115.馬祖-西莒青帆港,https://raw.githubusercontent.com/sem3060/sem/main/115.m3u8
 
-116.摩西分海即時影像-北寮奎壁山,https://raw.githubusercontent.com/sem3060/sem/main/116.m3u8
+116.小琉球-花瓶岩即時影像,https://raw.githubusercontent.com/sem3060/sem/main/116.m3u8
 
 117.綠島-南寮漁港,https://raw.githubusercontent.com/sem3060/sem/main/117.m3u8
 
