@@ -16,7 +16,7 @@
 
 09.新北-福隆海水浴場,https://raw.githubusercontent.com/sem3060/sem/main/09.m3u8
 
-10.新北-碧砂漁港1,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
+10.新北-八斗子漁港-基隆嶼即時影像,https://raw.githubusercontent.com/sem3060/sem/main/10.m3u8
 
 11.新北-中角灣即時影像,https://raw.githubusercontent.com/sem3060/sem/main/11.m3u8
 
@@ -136,7 +136,7 @@
 
 69.台南-安平港1,https://raw.githubusercontent.com/sem3060/sem/main/69.m3u8
 
-70.台南-宜蘭大里2,https://raw.githubusercontent.com/sem3060/sem/main/70.m3u8
+70.台南-安平港2,https://raw.githubusercontent.com/sem3060/sem/main/70.m3u8
 
 71.台南-黃金海岸,https://raw.githubusercontent.com/sem3060/sem/main/71.m3u8
 
@@ -152,11 +152,11 @@
 
 77.高雄-旗津海岸,https://raw.githubusercontent.com/sem3060/sem/main/77.m3u8
 
-78.墾丁大街直播(南下),https://raw.githubusercontent.com/sem3060/sem/main/78.m3u8
+78.墾丁-國家公園入口牌樓,https://raw.githubusercontent.com/sem3060/sem/main/78.m3u8
 
-79.墾丁大街直播(北上),https://raw.githubusercontent.com/sem3060/sem/main/79.m3u8
+79.墾丁-萬里桐海灣,https://raw.githubusercontent.com/sem3060/sem/main/79.m3u8
 
-80.墾丁-萬里桐海邊,https://raw.githubusercontent.com/sem3060/sem/main/80.m3u8
+80.墾丁-大灣,https://raw.githubusercontent.com/sem3060/sem/main/80.m3u8
 
 81.墾丁-南灣,https://raw.githubusercontent.com/sem3060/sem/main/81.m3u8
 
