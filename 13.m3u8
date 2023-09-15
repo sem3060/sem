@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1694773617/ei/Ed0DZauQEdaIlu8Pkc-_4Ac/ip/40.83.3.158/id/Yg5Qybt0UQ0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-q4fl6nd6.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f8YgAxXA_x_BFszn6yNPOV1KMRw/vprv/1/playlist_type/DVR/mh/5d/mm/44/mn/sn-q4fl6nd6/ms/lva/mv/u/mvi/5/pl/18/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24472448/mt/1694750875/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRAIgBpXiCSr4-rVc2A_3TipAat2gw0PbSSeSV5zWvEHHyrwCIDtRSVViUvYwAU_vt7uiajEE2bSp1p80U574hkhKVIVO/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIgGSuSqCLlkTDJ5WTMKuXGnGFBNoBEl2yuxrc_rvi9aC8CIQCd90K8A1WkphLWH7D0xrExzZirfh7GfLJhoOgtwfvK3g%3D%3D/playlist/index.m3u8
 EOL 
 # 14基隆-和平島2
