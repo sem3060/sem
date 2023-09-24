@@ -80,7 +80,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=IZorD52YOYc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VC10jMWKayE)
         EOL
         # 07新北-鼻頭角服務區
     - name: Get 07.m3u8
