@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=KDmrtfNY-hM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=5tHxtjbAVgc)
         EOL
         # 19新北-淡水老街渡船頭
     - name: Get 19.m3u8
@@ -240,7 +240,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qJUVVjCjFaw)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tx07sS9lCvY)
         EOL
        # 23新北-中和烘爐地
     - name: Get 23.m3u8
@@ -532,7 +532,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=05aIuk6vGfs)
         EOL
-        # 52台中-南投日月潭九蛙即時影像
+        # 52台中-南投日月潭雲品溫泉酒店-九蛙-伊達邵
     - name: Get 52.m3u8
       run: |
         touch ./52.m3u8
@@ -540,7 +540,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=mlpPxgCovz8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xblg8mHzFGs)
         EOL
        # 53台中-北屯區松竹寺
     - name: Get 53.m3u8
@@ -622,7 +622,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=8KnqJBf_dow)
         EOL
-        # 61嘉義-阿里山森林遊樂區
+        # 61嘉義-阿里山森林遊樂區-異動-颱風最新動態
     - name: Get 61.m3u8
       run: |
         touch ./61.m3u8
@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=rDf5MPrWxkI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=EQeUi7i_LTU)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
