@@ -740,7 +740,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=TxeeTN7kSzA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=O1Mt1dh9E6I)
         EOL
         # 73嘉義-北港朝天宮
     - name: Get 73.m3u8
@@ -1010,7 +1010,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=E9fZdf6--cM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=j3l32VFi5M8)
         EOL
         # 100花蓮-石梯坪1
     - name: Get 100.m3u8
