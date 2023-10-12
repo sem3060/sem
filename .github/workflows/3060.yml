@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=5tHxtjbAVgc)
+        $(yt-dlp --print urls https://youtu.be/jAiXVQK5IKM)
         EOL
         # 19新北-淡水老街渡船頭
     - name: Get 19.m3u8
@@ -350,7 +350,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=9pU85tOpKIU)
+        $(yt-dlp --print urls https://youtu.be/lvnqAMD1LS8)
         EOL
        # 34桃園-永安漁港動態即時影像
     - name: Get 34.m3u8
