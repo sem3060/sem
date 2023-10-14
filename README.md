@@ -6,9 +6,9 @@
 
 04.宜蘭-外澳沙灘,https://raw.githubusercontent.com/sem3060/sem/main/04.m3u8
 
-05.蘇澳-南方澳,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
+05.蘇澳-南方澳-第一漁港,https://raw.githubusercontent.com/sem3060/sem/main/05.m3u8
 
-06.蘇澳-南方澳2,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
+06.蘇澳-南方澳-第二漁港,https://raw.githubusercontent.com/sem3060/sem/main/06.m3u8
 
 07.新北-鼻頭角服務區,https://raw.githubusercontent.com/sem3060/sem/main/07.m3u8
 
@@ -154,7 +154,7 @@
 
 78.墾丁-國家公園入口牌樓,https://raw.githubusercontent.com/sem3060/sem/main/78.m3u8
 
-79.墾丁-萬里桐海灣,https://raw.githubusercontent.com/sem3060/sem/main/79.m3u8
+79.南投-武嶺休憩亭,https://raw.githubusercontent.com/sem3060/sem/main/79.m3u8
 
 80.墾丁-大灣,https://raw.githubusercontent.com/sem3060/sem/main/80.m3u8
 
