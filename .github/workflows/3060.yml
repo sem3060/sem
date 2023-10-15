@@ -360,7 +360,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=tD_a03trUvE&list=PLWLEgnHzuoYx8Y4s_HPV1H1EYmLT6X74E)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tD_a03trUvE)
         EOL
        # 35桃園-虎頭山環保公園
     - name: Get 35.m3u8
