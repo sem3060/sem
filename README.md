@@ -100,9 +100,9 @@
 
 51.台中-南投武陵休憩區,https://raw.githubusercontent.com/sem3060/sem/main/51.m3u8
 
-52.台中-南投日月潭伊達邵,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
+52.台中-南投日月潭-九蛙,https://raw.githubusercontent.com/sem3060/sem/main/52.m3u8
 
-53.台中-北區松竹寺,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
+53.台中-雲品溫酒店即時影像,https://raw.githubusercontent.com/sem3060/sem/main/53.m3u8
 
 54.台中-南投日月潭伊達邵碼頭,https://raw.githubusercontent.com/sem3060/sem/main/54.m3u8
 
