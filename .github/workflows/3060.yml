@@ -60,7 +60,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Vm0KfUv4Mc4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=uY5La1BfO6s)
         EOL
         # 05蘇澳-南方澳-第一漁港
     - name: Get 05.m3u8
