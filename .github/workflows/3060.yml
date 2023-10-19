@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=sYmSvfhajxQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WXmglg4HT40)
         EOL
         # 11新北-中角灣即時影像
     - name: Get 11.m3u8
@@ -500,7 +500,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=cG5NJPRt_l4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=en0Z9sT1qNw)
         EOL
         # 49苗栗-雪霸汶水遊客中心
     - name: Get 49.m3u8
@@ -540,7 +540,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=soGsvxob0oM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Xq7zQ7gnFxM)
         EOL
        # 53台中-雲品日月潭酒店
     - name: Get 53.m3u8
@@ -792,7 +792,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls  https://www.youtube.com/watch?v=ka7FV0sCvxQ)
         EOL
-        # 78墾丁-牌樓-合歡山-武嶺
+        # 78墾丁-牌樓-合歡山-武嶺-八卦山
     - name: Get 78.m3u8
       run: |
         touch ./78.m3u8
@@ -800,7 +800,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=70sqJ28KEfk)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=r00Tsi1kkOE)
         EOL
        # 79墾丁-萬里桐-南方澳-情人灣
     - name: Get 79.m3u8
