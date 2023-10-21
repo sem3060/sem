@@ -70,7 +70,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Y1Q_-daAG7M)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WjRvdOiqMTE)
         EOL
         # 06蘇澳-南方澳-第二漁港
     - name: Get 06.m3u8
@@ -80,7 +80,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=a6cblrK-vLU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tYZHy7i3GgI)
         EOL
         # 07新北-鼻頭角服務區
     - name: Get 07.m3u8
@@ -120,7 +120,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WXmglg4HT40)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=d87XNNxe5wg)
         EOL
         # 11新北-中角灣即時影像
     - name: Get 11.m3u8
