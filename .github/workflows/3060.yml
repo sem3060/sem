@@ -230,7 +230,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qe1U0yFN5QE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=HSNsZ3CBSRg)
         EOL
         # 22新北-烏來吊橋
     - name: Get 22.m3u8
