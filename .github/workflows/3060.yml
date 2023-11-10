@@ -520,7 +520,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/lhXXhDyjFtI)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=lhXXhDyjFtI)
         EOL
         # 51台中-南投武陵休憩區
     - name: Get 51.m3u8
@@ -530,7 +530,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/05aIuk6vGfs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=05aIuk6vGfs)
         EOL
         # 52台中-九蛙-日月潭
     - name: Get 52.m3u8
@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/rGh_RsdpxUs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rGh_RsdpxUs)
         EOL
         # 55台中-清水紫雲岩廟內
     - name: Get 55.m3u8
@@ -570,7 +570,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/9oYlphXeawM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9oYlphXeawM)
         EOL
         # 56台中-南投梨山賓館
     - name: Get 56.m3u8
@@ -810,7 +810,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/HIprVC2FoI4)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=euEiBRPXpBY)
         EOL
         # 80墾丁-大灣
     - name: Get 80.m3u8
@@ -820,7 +820,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/Qcp7ZBYRPqU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Qcp7ZBYRPqU)
         EOL
         # 81墾丁-南灣
     - name: Get 81.m3u8
@@ -830,7 +830,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/Dl1N4LXuDgU)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=Dl1N4LXuDgU)
         EOL
         # 82墾丁-船帆石海灘
     - name: Get 82.m3u8
@@ -840,7 +840,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/3Wb_Lgw7Ltc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=3Wb_Lgw7Ltc)
         EOL
        # 83台東-三仙台
     - name: Get 83.m3u8
@@ -850,7 +850,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/dQ7Sd6PGLdA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=dQ7Sd6PGLdA)
         EOL
         # 84台東-多良車站
     - name: Get 84.m3u8
@@ -860,7 +860,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/UCG1aXVO8H8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=UCG1aXVO8H8)
         EOL
         # 85台東-長虹橋
     - name: Get 85.m3u8
@@ -870,7 +870,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/JnD8Rk3o0BM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JnD8Rk3o0BM)
         EOL
         # 86台東-金崙大橋
     - name: Get 86.m3u8
@@ -880,7 +880,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/9QqBz3kNHis)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9QqBz3kNHis)
         EOL
         # 87台東-加路蘭游憩區
     - name: Get 87.m3u8
@@ -900,7 +900,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/JhQuR77AR7U)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=JhQuR77AR7U)
         EOL
         # 89台東-杉原灣
     - name: Get 89.m3u8
@@ -910,7 +910,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/VqS_Y8ZCj6M)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=VqS_Y8ZCj6M)
         EOL
         # 90台東-富岡漁港
     - name: Get 90.m3u8
@@ -920,7 +920,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/D945F_dauls)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=D945F_dauls)
         EOL
         # 91台東-富岡漁港
     - name: Get 91.m3u8
@@ -930,7 +930,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/D945F_dauls)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=D945F_dauls)
         EOL
         # 92台東-富岡漁港2
     - name: Get 92.m3u8
@@ -970,7 +970,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/rvc1klNIgQc)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rvc1klNIgQc)
         EOL
         # 96台東-池上天堂路
     - name: Get 96.m3u8
@@ -1000,7 +1000,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/tWdI0YfY93Y)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=tWdI0YfY93Y)
         EOL
         # 99花蓮-七星潭北埔安檢所2
     - name: Get 99.m3u8
@@ -1010,7 +1010,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/j3l32VFi5M8)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=j3l32VFi5M8)
         EOL
         # 100花蓮-石梯坪1
     - name: Get 100.m3u8
