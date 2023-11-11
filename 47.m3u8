@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1699705211/ei/Gx1PZfu4KpCskga8z7jgDg/ip/13.88.61.220/id/uIXLqDLyxCg.295/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-n4v7snse.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f6f-QxScdQHNBFnUPSiooLu6aC0/vprv/1/playlist_type/DVR/mh/Ju/mm/44/mn/sn-n4v7snse/ms/lva/mv/u/mvi/2/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1699682378/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/ANLwegAwRAIgRW9txrqsg6v2K5OVqGsmhf4YIUQmZaNlE6F9M8gCc0kCIG66linZfZ8P7i3qWxozcp7Ra7qaAOLJZ5BOeeKmnaEJ/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AM8Gb2swRQIhAIGKNczge8yGu6u5CKLQGaIBcFZmawViy3NOWCWr2qJxAiB1UE5dpkDsp1dgZgt2ilJksLKmg7FDpl0Han9StdK_bA%3D%3D/playlist/index.m3u8
 EOL        
 # 48台鐵北新竹站
