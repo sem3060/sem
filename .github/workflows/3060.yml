@@ -550,7 +550,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/xblg8mHzFGs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=GSsHQyPP9RE)
         EOL
         # 54台中-大甲鎮瀾宮內
     - name: Get 54.m3u8
@@ -590,7 +590,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://youtu.be/XWlIcYSFfVA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=XWlIcYSFfVA)
         EOL
         # 58台中-高美濕地
     - name: Get 58.m3u8
