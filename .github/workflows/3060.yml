@@ -532,7 +532,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=05aIuk6vGfs)
         EOL
-        # 52台中-九蛙-日月潭
+        # 52台中-九蛙-日月潭-伊達邵
     - name: Get 52.m3u8
       run: |
         touch ./52.m3u8
@@ -540,9 +540,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=Xq7zQ7gnFxM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=vtrTaAB_ZRQ)
         EOL
-       # 53台中-雲品日月潭酒店
+       # 53台中-高美濕地-雲品日月潭酒店
     - name: Get 53.m3u8
       run: |
         touch ./53.m3u8
@@ -550,9 +550,9 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=GSsHQyPP9RE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=fjhg3gAnMFg)
         EOL
-        # 54台中-大甲鎮瀾宮內
+        # 54台中-八卦山-大甲鎮瀾宮內
     - name: Get 54.m3u8
       run: |
         touch ./54.m3u8
@@ -560,7 +560,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=rGh_RsdpxUs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=r00Tsi1kkOE)
         EOL
         # 55台中-清水紫雲岩廟內
     - name: Get 55.m3u8
@@ -580,7 +580,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=ihqjLwYkyYE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=aWlOtwKZ9-4)
         EOL
        # 57台中-南投梨山攬勝樓
     - name: Get 57.m3u8
@@ -592,7 +592,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=XWlIcYSFfVA)
         EOL
-        # 58台中-高美濕地
+        # 58台中-南投梨山櫻緣丘
     - name: Get 58.m3u8
       run: |
         touch ./58.m3u8
@@ -600,7 +600,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=fjhg3gAnMFg)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=L0fZTs72jmg)
         EOL
         # 59嘉義-阿里山里佳資訊站
     - name: Get 59.m3u8
@@ -630,7 +630,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=RMC25kspnhs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=rXA6vx3GY1E)
         EOL
         # 62嘉義-奮起湖
     - name: Get 62.m3u8
@@ -682,7 +682,7 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=agEzlv9n9Eg)
         EOL
-        # 67南投-清境-觀星園(星空)
+        # 67南投-武嶺-清境-觀星園(星空)
     - name: Get 67.m3u8
       run: |
         touch ./67.m3u8
@@ -690,7 +690,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=EHBqUQrI1uE)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=ACTCQjzbddo)
         EOL
         # 68台東-大石鼻山
     - name: Get 68.m3u8
