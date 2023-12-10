@@ -92,7 +92,7 @@
 
 47.桃園-永安漁港2,https://raw.githubusercontent.com/sem3060/sem/main/47.m3u8
 
-48.台鐵北新竹站,https://raw.githubusercontent.com/sem3060/sem/main/48.m3u8
+48.桃園國際機場,https://raw.githubusercontent.com/sem3060/sem/main/48.m3u8
 
 49.苗栗-雪霸汶水遊客中心,https://raw.githubusercontent.com/sem3060/sem/main/49.m3u8
 
