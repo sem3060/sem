@@ -200,7 +200,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=jAiXVQK5IKM)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xuV-00kgibA)
         EOL
         # 19新北-淡水老街渡船頭
     - name: Get 19.m3u8
