@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1702710624/ei/APl8ZcS1GvO6_9EP0LWB6AE/ip/20.55.213.89/id/uIXLqDLyxCg.484/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr4---sn-p5qlsnd6.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f6fK3Bw_I83WNfz3Prdw7COCkn0/vprv/1/playlist_type/DVR/mh/Ju/mm/44/mn/sn-p5qlsnd6/ms/lva/mv/u/mvi/4/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1702687746/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAKxyrivKxpgirte3nHdfemIeih855r31iITCoMRpKsnCAiEA1ahXBcXhwww-FEG4HvW9UiBpFK4OI_uc92G7jzrqvMk%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AAO5W4owRAIgNHunA6D8TADJ2Y9FXZWMvrWe9ZhJIAyQ42z15yWPZC8CICm59Whewps51aYS641Vh8GUuMXLexM6VE_cumtzxDcS/playlist/index.m3u8
 EOL        
 # 48桃園國際機場-台鐵北新竹站
