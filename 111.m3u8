@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1709209401/ei/2SLgZdnQDZGvsfIPsKibuAo/ip/20.172.24.209/id/g-UAUkDsRSs.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-a5msen7s.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9fy8ZE5OWnlpcrbCe8MqNPNeXbzbG5ZTA32kr24LJiAI/vprv/1/playlist_type/DVR/mh/uG/mm/44/mn/sn-a5msen7s/ms/lva/mv/u/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1709187435/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIgK7tfeEH3-gaouDe4cl_ZTmuNdBGDVtdYJvs1f5_gKH4CIQDenyH4Zs-WvyK4XU2AaiUk8dwjhXiMiYXjs32HpCAVGA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/APTiJQcwRAIgIfWG0XLw-ymcJjfMDksHKZapXZBzak8o66GiJz7UNI0CIGj4PeHlJhF6-NPo6H1fxLy85lv1BgqD4iCRE8aPYa9r/playlist/index.m3u8
 EOL  
 # 112馬祖-北竿白沙港
