@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1709922661/ei/BQXrZcjxAp_82_gPxZO0yAo/ip/172.183.148.18/id/6GXK2XMGgUc.4/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-vgqsknzl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f_8ax0je8Dh_rgqytnbPt9hmud9AN5nNShjiYrrM8Wo/vprv/1/playlist_type/DVR/mh/DD/mm/44/mn/sn-vgqsknzl/ms/lva/mv/u/mvi/3/pl/15/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1709898633/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgN2zyEinYrDhXoUuA11rWuKsOOZQfrcansR8VprnCjc0CICLOtpzIi8FylQhX1gDmHr6ldZNuawpdmy-e2kVmYyY7/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/APTiJQcwRQIhAMqBKuzM7cNEkzSLmTVhMzTsNZuIb-dvWKrtblu9Qtm4AiAGxs_GA-lkNWuFRrAJHgKDxi8F4ZrNt_tFTZtTSxmKLQ%3D%3D/playlist/index.m3u8
 EOL  
 # 114馬祖-東引中柱港2
