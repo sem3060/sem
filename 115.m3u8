@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1713032883/ei/U3oaZp3rFpe0sfIP3M-MsAo/ip/4.227.115.129/id/R3geopUJojU.3/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-ib.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f3vjItonuBb2--1AicwQ2XLf-SNbqi1e/vprv/1/playlist_type/DVR/mh/hE/mm/44/mn/sn-ib/ms/lva/mv/u/mvi/3/pl/24/dover/11/pacing/0/keepalive/yes/mt/1713010576/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAKHd1R_CgkLfwi7VfQAHzCMi1xQdf1dVAYA-4jzEMtNrAiEA_bPQ8q93xG_pcD5xFUoZ8lCCKIoUfB8ocKhcZl0p93k%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgDBgC6zuZ7_8duWPSAT0c4k0CJD-bP9ur6TYV5kckJRgCIC4eoGB9cmQYTZvoalihPlV1yIL7NDqT4vSeUS1IaPgD/playlist/index.m3u8
 EOL  
 # 116小琉球-花瓶岩
