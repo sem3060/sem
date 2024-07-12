@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1720797726/ei/vvWQZr-oCMz4sfIPrPGJ-A4/ip/20.171.70.48/id/wTHhv7M0vCI.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-a5meknzk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/NO7bAbymSpxM3j4-RDcYj6TEomCFUT0kXL9ZscmbFFSRTYBefHOs1xguVA7B9Yo/vprv/1/playlist_type/DVR/initcwndbps/4823750/mh/7L/mm/44/mn/sn-a5meknzk/ms/lva/mv/m/mvi/2/pl/16/dover/11/pacing/0/keepalive/yes/mt/1720775803/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRgIhAPHL3IHA0blcpGf7JXctuxEfU5F-6grMTXO5v337WDf0AiEAsQJsXOfgXdGJXfJSk5qazgN5NOFoDglvXBlxOMERnvE%3D/lsparams/hls_chunk_host,initcwndbps,mh,mm,mn,ms,mv,mvi,pl/lsig/AHlkHjAwRQIhANTp1OA5-r1V7HPACH_wh0DhFPd6LjW27tMoUTCwRqIoAiB_tdiFjJAiVKDQDEhbF4wd_HrxQ5fH9i-NoROLvQ7WAA%3D%3D/playlist/index.m3u8
 EOL  
 # 118綠島-帆船鼻-朝日溫泉
