@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1767227874/ei/gm1VaavPJdya2_gP-uqz8Qc/ip/64.236.140.214/id/-srNHTE-Nf0.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr2---sn-vgqsrnz7.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AYUSA3AEW3m03PB9zAEIWd9-1CwspcSVcB8Q6fxe97iSB1rwrmpyESb0tnpnOJybVTYurUboJ479wpTJ/spc/wH4Qq19B6y7ibAZzpis99EySsrU-BMmqmOTYGWWkSNfOLwIIlGMJ57DXTi8dVYbLaB8/vprv/1/ns/1Sq2nGwV5cEcUW23e-6Ip5cR/playlist_type/DVR/cps/2/initcwndbps/4228750/met/1767206274,/mh/On/mm/44/mn/sn-vgqsrnz7/ms/lva/mv/m/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565115,51565682,51580968/n/BAYX0HVxqnjrgMblYQ/mt/1767205975/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,ns,playlist_type/sig/AJfQdSswRgIhALakLvpmbdIBj8fXje0JLUQPhjwOHivcfNG3J6mLGz6nAiEAhRFp6QqHtpTiG9Rv8GOJV2y6WQsZ78HY4eor6grcLrw%3D/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRAIgSm6EgdAOmEKwVCx3Gvp_jkthxFD9a3rKzO4EFsb_o2ACIA0_GgLLLdOuk8u2FvpefpOTB0iV5sXdZy1dppKyPrwT/playlist/index.m3u8
 EOL  
 # 111馬祖-南竿福澳港
