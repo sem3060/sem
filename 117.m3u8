@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769076870/ei/JqRxaYHID_GZsfIPw_PU6Qs/ip/172.184.219.83/id/wTHhv7M0vCI.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr6---sn-ojn4v5-5w.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_rXXFm15o5VAA6iZS7tLRjQNcNI6QwH6JctDw3j8KBV5JKJrbsdqTfnxS0Z3XO-8iUPAk8aBdJV/spc/q5xjPGzrwxDOBIgGeQ5Xk465kReAkrvKZgXnRiuC0njSzm_xWbNfSca_ECYwx4I19_GQ4g/vprv/1/ns/3HLnSd5wAfKwRQTpXTLyJf0S/playlist_type/DVR/met/1769055270,/mh/7L/mm/44/mn/sn-ojn4v5-5w/ms/lva/mv/u/mvi/6/pl/20/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968,51626155/n/pegvuAZ1En5KDlXz4/mt/1769054409/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRAIgT7grTv5_oZkSt_QQ75Yqc9T9eGOURWgz2qGtvA2uHS4CIHb8xlCGO0KGMMK4RyahUp5Az9qH18r2RUzxagkbqDYx/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPmbP904WLTAHbWTh8CRo96I_z96amPYoFT4V5xzRASQAiEAqmZaWEvDaqWGBapuFaETCaxpEDV3xr0IpPQgPQNWJUE%3D/playlist/index.m3u8
 EOL  
 # 118綠島-帆船鼻-朝日溫泉
